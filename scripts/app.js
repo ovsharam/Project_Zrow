@@ -92,3 +92,38 @@ quitBtn.onclick = function(){
 //     }   
 // };
 
+//------------------------------------------CREATING CHARACTER OBJECTS---------------------------------------//
+// const Flash = {
+//     health: 100,
+//     lives: 3,
+// };
+
+// const Sonic = {
+//     health: 100,
+//     lives: 3,
+// };
+//
+// var winner = assignWinner(1,3)
+// function assignWinner(min,max){
+//     return Math.floor(Math.random() *(max - min)) + min
+    
+// };
+// //Deciding who wins
+// if (winner == 1){
+//     secondBtn.style.display = "none";
+//     console.log("flash wins!")
+// }else {
+//     btn.style.display = "none"
+//     console.log("Sonic wins!")
+
+// };
+
+
+//----------------------------------------INIT THE BUTTONS-------(STRETCH FEATURES)--------------------------//
+
+
+
+
+
+//----------------------------------------------------BUTTON FUNCTIONS---------------------------------------//
+
