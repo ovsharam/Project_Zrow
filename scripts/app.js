@@ -48,3 +48,25 @@ startBtn.onclick = function() {
     // redDot.style.display = 'block'
     // blueDot.style.display = 'block'
     var winner = assignWinner(1,3)
+    function assignWinner(min,max){
+        return Math.floor(Math.random() *(max - min)) + min
+        } if (winner == 1){
+            // secondBtn.style.display = "none";
+            // console.log("flash wins!")
+            redDot.style.display = 'block'
+            finalDot.style.display = 'block'
+            setTimeout(function() {
+                secondBtn.style.display = 'none'
+            }, 6000)
+            console.log(winner)
+        }else {
+        // btn.style.display = "none"
+        // console.log("Sonic wins!")
+        blueDot.style.display = 'block'
+        secondDot.style.display = 'block'
+        setTimeout(function(){
+            btn.style.display = 'none'
+        }, 6000)
+        }
+    };
+    
