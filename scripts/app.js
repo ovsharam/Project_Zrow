@@ -69,4 +69,8 @@ startBtn.onclick = function() {
         }, 6000)
         }
     };
-    
+//Quit Button Clears Page
+const quitBtn = document.getElementById("Quit");
+quitBtn.onclick = function(){
+    reload = location.reload()
+};    
