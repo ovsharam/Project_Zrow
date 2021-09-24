@@ -74,3 +74,21 @@ const quitBtn = document.getElementById("Quit");
 quitBtn.onclick = function(){
     reload = location.reload()
 };    
+//Animating dots across the screen 
+
+// var blueOne = document.getElementById("Blue_dot");
+// blueOne.animate(
+// function myMove() {
+//     clearInterval(id);
+//     blueAnimate = setInterval(frame, 10);
+//     function frame() {
+//         if (pos == 920) {
+//             clearInterval(id);
+//         } else {
+//             pos++;
+//             elem.style.top = pos + 'px';
+//             elem.style.left = pos + 'px';
+//         }
+//     }   
+// };
+
