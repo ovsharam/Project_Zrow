@@ -1,0 +1,24 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2F2F2;
+}
+#Quit:hover{
+    background-color: green;
+}
+#Start_Race:hover{
+    background-color:rgb(46, 128, 25);
+}
+#Rejuvy:hover{
+    background-color:rgb(46, 128, 25);
+}
