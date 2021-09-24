@@ -40,3 +40,11 @@ if (targetDiv.style.display == 'block'){
 } else {
     gameBtn.style.display = 'none'
 }
+// Creating && Displaying a winner
+const startBtn = document.getElementById("Start_Race");
+const secondDot = document.getElementById("secondRedDot");
+const finalDot = document.getElementById("secondBlueDot");
+startBtn.onclick = function() {
+    // redDot.style.display = 'block'
+    // blueDot.style.display = 'block'
+    var winner = assignWinner(1,3)
