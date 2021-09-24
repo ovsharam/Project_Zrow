@@ -34,3 +34,9 @@ secondBtn.onclick = function() {
         secondDiv.style.display = 'block'
     }
 }
+const gameBtn = document.getElementById("Game_buttons");
+if (targetDiv.style.display == 'block'){
+    gameBtn.style.display = 'block';
+} else {
+    gameBtn.style.display = 'none'
+}
