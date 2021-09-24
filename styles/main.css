@@ -22,3 +22,68 @@ body {
 #Rejuvy:hover{
     background-color:rgb(46, 128, 25);
 }
+#secondRedDot{
+    width:5vh;
+    height: 5vh;
+    align-items:flex-start;
+    flex-direction:row;
+    display: fle;
+    position:absolute;
+    border-radius: 80%;
+    background-color: red;
+    transform: translate(-400px, 150px);
+}
+#Red_dot{
+    animation: redDot  8s forwards;
+    width:5vh;
+    height: 5vh;
+    align-items:flex-start;
+    flex-direction:row;
+    display: fle;
+    position:absolute;
+    border-radius: 80%;
+    background-color: red;
+    transform: translate(-400px, 150px);
+}
+
+@keyframes redDot{
+    0%{
+        transform: translate(-400px, 150px);
+    }
+    100%{
+        transform: translate(400px, 150px);
+    }
+}
+#secondBlueDot{
+    width: 5vh;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 80%;
+    background-color: blue;
+    transform: translate(-400px, 280px);
+}
+
+    #Blue_dot{
+    animation: blueDot 8s forwards;
+    width: 5vh;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 80%;
+    background-color: blue;
+    transform: translate(-400px, 280px);
+}
+@keyframes blueDot{
+    0%{ 
+        transform: translate(-400px, 280px);
+    }
+    100%{
+        transform: translate(400px, 280px);
+    }
+
+}
