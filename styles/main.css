@@ -130,3 +130,14 @@ body {
     background-image:url("https://i.pinimg.com/564x/78/04/3d/78043dbdee62ae109978629fbf3598b7.jpg");
     border-radius: 5em;
 }
+#game_buttons{
+    display: center;
+    width: 46%;
+}
+
+#Track{
+    position:relative;
+    top: 0;
+    left: 0;
+    
+}
